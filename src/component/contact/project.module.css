@@ -1,0 +1,39 @@
+.full{
+    background-color: rgba(213, 223, 196, 0.393);
+}
+@media screen and (min-width: 990px){
+    .Projectitem{
+        display: flex;
+        margin: 2rem;
+        border-radius: 6px;
+        box-shadow: 3px 5px rgba(74, 74, 74, 0.167) ;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .Projectitem img{
+        width:22rem;
+        height: 18rem;
+       
+     }
+    
+}
+.Projectitem{
+    background-color: rgb(186, 228, 243);
+}
+@media  screen and (max-width: 880px){
+    .Projectitem{
+        width: 50rem;
+        height: 45rem;
+        margin: 2rem auto;
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       border-radius: 10px;
+    }
+    .Projectitem img{
+        height: 31rem;
+        width:37rem;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+}
